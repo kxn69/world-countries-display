@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #ffffff;
+    background-color: rgb(219, 197, 189, 0.2);
+}
+
+header {
+    background-image: url(/images/globe-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 45% 55%;
+    background-size: cover;
+    background-color: #4976bf;
+    background-blend-mode: multiply;
+    opacity: 0.9;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header-title {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.total-countries {
+    margin: auto;
+    font-size: 16px;
+}
+
+.buttons-div {
+    margin-bottom: 20px;
+}
+
+button {
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    background-color: #9a2dee;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.arrow-button:hover {
+    background-color: #3d105f;
+}
+.search-bar-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    border: 2px solid #27c9fa;
+    font-size: 16px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+#search-bar:focus {
+    outline: none;
+    border: 2px solid #27c9fa;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.fa-magnifying-glass {
+    font-size: 25px;
+    cursor: pointer;
+}
