@@ -133,7 +133,7 @@ function displayCountries(filteredCountries) {
         const span = document.createElement('span');
         span.textContent = country;
         //style
-        span.style.backgroundImage = 'url(/images/map_image.jpg)';
+        span.style.backgroundImage = 'url(/images/map.jpg)';
         span.style.backgroundSize = 'cover';
         span.style.backgroundPosition = 'center center';
         span.style.backgroundColor = 'grey';
