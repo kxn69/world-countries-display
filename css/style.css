@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url(/images/globe.jpg);
+    /* background-image: url(images/globe.jpg); */
     background-repeat: no-repeat;
     background-position: 45% 55%;
     background-size: cover;

@@ -5,6 +5,9 @@ totalCountries.textContent = `Total Number Of Countries: ${countries.length}`;
 // get counties-count class
 const countriesCount = document.querySelector('.countries-count');
 
+const header = document.getElementById('header');
+header.style.backgroundImage = 'url(images/globe.jpg)';
+
 // get countries-list class
 const countriesList = document.querySelector('.countries-list');
 countriesList.style.display = 'flex';
@@ -133,7 +136,7 @@ function displayCountries(filteredCountries) {
         const span = document.createElement('span');
         span.textContent = country;
         //style
-        span.style.backgroundImage = 'url(/images/map.jpg)';
+        span.style.backgroundImage = 'url(images/map.jpg)';
         span.style.backgroundSize = 'cover';
         span.style.backgroundPosition = 'center center';
         span.style.backgroundColor = 'grey';
