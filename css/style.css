@@ -6,8 +6,8 @@ body {
     background-color: rgb(219, 197, 189, 0.2);
 }
 
-header {
-    background-image: url(/images/globe.jpg);
+#header {
+    background-image: url(images/globe.jpg);
     background-repeat: no-repeat;
     background-position: 45% 55%;
     background-size: cover;
