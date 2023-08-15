@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    /* background-image: url(images/globe.jpg); */
+    background-image: url(/images/globe.jpg);
     background-repeat: no-repeat;
     background-position: 45% 55%;
     background-size: cover;
@@ -48,6 +48,7 @@ button {
     text-transform: uppercase;
     font-size: 12px;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 .arrow-button:hover {
@@ -80,4 +81,30 @@ input::placeholder {
 .fa-magnifying-glass {
     font-size: 25px;
     cursor: pointer;
+}
+
+.countries-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.country {
+    border: 2px solid #27c9fa;
+    background-image: url(/images/map.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: grey;
+    background-blend-mode: multiply;
+    border-radius: 4px;
+    width: 130px;
+    height: 130px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 900;
 }
